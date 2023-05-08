@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html{
+    color: #fff;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.logo{
+    margin: 50px 50px 50px 125px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+}
+.container img{
+    margin: 50px;
+}
+.container .texto{
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+}
+
+.container .texto h1{
+    font-size: 3rem;
+    line-height: 150%;
+    margin-bottom: 5px;
+    
+}
+.container .texto p{
+    font-size: 1.2rem;
+    max-width: 75%;
+    margin-bottom: 35px;
+    line-height: 150%;
+
+}
+.container .texto a{
+    background-color: #FFF;
+    padding: 12px 50px;
+    margin-top: 5px;
+    border-radius: 25px;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    transition: 0.3s ease-in-out;
+
+}
+.container .texto a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #FFF;
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.social .icone a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 28px;
+    border: 1px solid;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+}
+.social .icone a:hover{
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+}
+.footer p{
+    position: relative;
+    top: 30px;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 89%, 31%); 
+}
